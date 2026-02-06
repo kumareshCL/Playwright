@@ -35,7 +35,7 @@ console.log(await page.locator(".card-body a").nth(2).textContent());
 
 })
 
-test.only ('register', async({page})=>
+test ('register', async({page})=>
 {
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
     console.log(await page.title());
